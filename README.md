@@ -8,7 +8,7 @@ This contains everything you need to run your app locally using **Next.js 15**.
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) if needed
+2. Create a `.env.local` file in the project root and add secrets such as `GEMINI_API_KEY`. This file is gitignored.
 3. Run the development server:
    `npm run dev`
 
