@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #DC2626;
+  --color-primary-hover: #B91C1C;
+  --color-primary-light: #FEF2F2;
+  --color-secondary: #4B5563;
+  --color-secondary-hover: #374151;
+  --color-accent: #F59E0B;
+  --color-accent-hover: #D97706;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}

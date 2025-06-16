@@ -1,6 +1,6 @@
 {
   "name": "RianFast",
-  "description": "A React-based Single Page Application mimicking core features of an e-learning platform like Udemy. This application is built with React 18, TypeScript, and Tailwind CSS. Please note: While 'Next.js 15' was requested, the generation capabilities are focused on React SPAs. This project delivers a robust React SPA foundation.",
+  "description": "An e-learning demo built with Next.js 15, TypeScript and Tailwind CSS.",
   "requestFramePermissions": [],
   "prompt": ""
 }
