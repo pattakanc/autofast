@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "npx tailwindcss -i ./app/tailwind.css -o ./app/globals.css --watch & next dev",
+    "build": "npx tailwindcss -i ./app/tailwind.css -o ./app/globals.css && next build",
     "start": "next start"
   },
   "dependencies": {
@@ -13,8 +13,10 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
     "@types/node": "^22.14.0",
     "@types/react": "19.1.8",
+    "tailwindcss": "^4.1.10",
     "typescript": "~5.7.2"
   }
 }

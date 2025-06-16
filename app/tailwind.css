@@ -1,7 +1,7 @@
-/*! tailwindcss v4.1.10 | MIT License | https://tailwindcss.com */
-.list-disc {
-  list-style-type: disc;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --color-primary: #DC2626;
   --color-primary-hover: #B91C1C;
@@ -11,6 +11,7 @@
   --color-accent: #F59E0B;
   --color-accent-hover: #D97706;
 }
+
 body {
   font-family: 'Inter', sans-serif;
 }
