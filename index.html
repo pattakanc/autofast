@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RianFast E-Learning Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: 'var(--color-primary, #DC2626)', // red-600
+              hover: 'var(--color-primary-hover, #B91C1C)', // red-700
+              light: 'var(--color-primary-light, #FEF2F2)' // red-50
+            },
+            secondary: {
+              DEFAULT: 'var(--color-secondary, #4B5563)', // gray-600
+              hover: 'var(--color-secondary-hover, #374151)' // gray-700
+            },
+            accent: {
+              DEFAULT: 'var(--color-accent, #F59E0B)', // amber-500
+              hover: 'var(--color-accent-hover, #D97706)' // amber-600
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary: #DC2626; /* red-600 */
+      --color-primary-hover: #B91C1C; /* red-700 */
+      --color-primary-light: #FEF2F2; /* red-50 */
+      --color-secondary: #4B5563; /* gray-600 */
+      --color-secondary-hover: #374151; /* gray-700 */
+      --color-accent: #F59E0B; /* amber-500 */
+      --color-accent-hover: #D97706; /* amber-600 */
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
