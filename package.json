@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./app/tailwind.css -o ./app/globals.css --watch & next dev",
     "build": "npx tailwindcss -i ./app/tailwind.css -o ./app/globals.css && next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.3.3",
@@ -17,6 +18,8 @@
     "@types/node": "^22.14.0",
     "@types/react": "19.1.8",
     "tailwindcss": "^4.1.10",
-    "typescript": "~5.7.2"
+    "typescript": "~5.7.2",
+    "eslint": "^9.29.0",
+    "eslint-config-next": "15.3.3"
   }
 }
